@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="Married_states">
+        <item>Si</item>
+        <item>No</item>
+    </string-array>
+</resources>

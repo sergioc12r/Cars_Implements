@@ -1,0 +1,177 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:2:1-43:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\4ba8126275ac83942b8cf087fed346fd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\1c411535da44ac67fdba58b9069dfcdc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\0fe82b4941dfb225324e6aeb296fe60f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\cafb1dffb8bd9f8ab5a8dbd8596946e0\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.persistence.room:runtime:1.0.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\88380455e67ac59f357e4020d34ef4ca\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.d-max:spots-dialog:0.7] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\spots-dialog-0.7.aar\5b432a9eea7644bf9365fa49b4a43cd3\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\bd8c510a7dc03cb30036f4f917701b5a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\db57075d2db3a288531c8bc520ac68c2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\fa57b3cc5b12c82667e062f3afda485f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\f81367eeaed6a6003c53911053c8aa19\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\e4cc8a3db2081e4020ade46d17123389\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\75baba1cfc24ad3188de5f5c3ea76e61\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.0.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\db-framework-1.0.0.aar\29bb77803c5a8d760201cce26a7c9b9c\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.persistence:db:1.0.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\db-1.0.0.aar\7d07f9bfa958e8d5d5f9467c3c107c7a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\db28f0662b56ac4766b86c7caa20cdfe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\e5cc84f272088c0d22ac1dbcfadb2b88\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\2396df7e5631e604ada1205e6c60c08c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e980a892a668783a95636de1355800bc\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\eab36d78c713658649fc00d675023038\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0c8a13da9112afd1dad813add4e14bdb\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e6ba8a110240297231cb6ec068fd7839\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\1986924d6be582738ce1a0199627c0c1\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:2:1-43:12
+		INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:2:1-43:12
+		INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:7:5-41:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\cafb1dffb8bd9f8ab5a8dbd8596946e0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\cafb1dffb8bd9f8ab5a8dbd8596946e0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.d-max:spots-dialog:0.7] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\spots-dialog-0.7.aar\5b432a9eea7644bf9365fa49b4a43cd3\AndroidManifest.xml:12:5-20
+MERGED from [com.github.d-max:spots-dialog:0.7] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\spots-dialog-0.7.aar\5b432a9eea7644bf9365fa49b4a43cd3\AndroidManifest.xml:12:5-20
+	android:supportsRtl
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:13:9-59
+activity#com.serch.cars_implements.activities.MainActivity
+ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:14:9-23:20
+	android:screenOrientation
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:17:13-49
+	android:configChanges
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:16:13-48
+	android:name
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:15:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.serch.cars_implements.activities.cars_activity
+ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:24:9-27:52
+	android:screenOrientation
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:27:13-49
+	android:configChanges
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:26:13-48
+	android:name
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:25:13-53
+activity#com.serch.cars_implements.activities.draw_activity
+ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:28:9-31:52
+	android:screenOrientation
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:31:13-49
+	android:configChanges
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:30:13-48
+	android:name
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:29:13-53
+activity#com.serch.cars_implements.activities.person_activity
+ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:32:9-35:52
+	android:screenOrientation
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:35:13-49
+	android:configChanges
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:34:13-48
+	android:name
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:33:13-55
+activity#com.serch.cars_implements.activities.history_activity
+ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:36:9-65
+	android:name
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:36:19-62
+service#com.serch.cars_implements.service_sincrono
+ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:38:9-40:48
+	android:exported
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml:39:13-45
+uses-sdk
+INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\4ba8126275ac83942b8cf087fed346fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\4ba8126275ac83942b8cf087fed346fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\1c411535da44ac67fdba58b9069dfcdc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\1c411535da44ac67fdba58b9069dfcdc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\0fe82b4941dfb225324e6aeb296fe60f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\0fe82b4941dfb225324e6aeb296fe60f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\cafb1dffb8bd9f8ab5a8dbd8596946e0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\cafb1dffb8bd9f8ab5a8dbd8596946e0\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.persistence.room:runtime:1.0.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\88380455e67ac59f357e4020d34ef4ca\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence.room:runtime:1.0.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\88380455e67ac59f357e4020d34ef4ca\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.d-max:spots-dialog:0.7] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\spots-dialog-0.7.aar\5b432a9eea7644bf9365fa49b4a43cd3\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.d-max:spots-dialog:0.7] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\spots-dialog-0.7.aar\5b432a9eea7644bf9365fa49b4a43cd3\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\bd8c510a7dc03cb30036f4f917701b5a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\bd8c510a7dc03cb30036f4f917701b5a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\db57075d2db3a288531c8bc520ac68c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\db57075d2db3a288531c8bc520ac68c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\fa57b3cc5b12c82667e062f3afda485f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\fa57b3cc5b12c82667e062f3afda485f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\f81367eeaed6a6003c53911053c8aa19\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\f81367eeaed6a6003c53911053c8aa19\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\e4cc8a3db2081e4020ade46d17123389\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\e4cc8a3db2081e4020ade46d17123389\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\75baba1cfc24ad3188de5f5c3ea76e61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\75baba1cfc24ad3188de5f5c3ea76e61\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.0.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\db-framework-1.0.0.aar\29bb77803c5a8d760201cce26a7c9b9c\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db-framework:1.0.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\db-framework-1.0.0.aar\29bb77803c5a8d760201cce26a7c9b9c\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db:1.0.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\db-1.0.0.aar\7d07f9bfa958e8d5d5f9467c3c107c7a\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db:1.0.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\db-1.0.0.aar\7d07f9bfa958e8d5d5f9467c3c107c7a\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\db28f0662b56ac4766b86c7caa20cdfe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\db28f0662b56ac4766b86c7caa20cdfe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\e5cc84f272088c0d22ac1dbcfadb2b88\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\e5cc84f272088c0d22ac1dbcfadb2b88\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\2396df7e5631e604ada1205e6c60c08c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\2396df7e5631e604ada1205e6c60c08c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e980a892a668783a95636de1355800bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e980a892a668783a95636de1355800bc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\eab36d78c713658649fc00d675023038\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\eab36d78c713658649fc00d675023038\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0c8a13da9112afd1dad813add4e14bdb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0c8a13da9112afd1dad813add4e14bdb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e6ba8a110240297231cb6ec068fd7839\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e6ba8a110240297231cb6ec068fd7839\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\1986924d6be582738ce1a0199627c0c1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\drago\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\1986924d6be582738ce1a0199627c0c1\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\drago\OneDrive\Escritorio\Poyectos Android\Cars_Implements\app\src\main\AndroidManifest.xml

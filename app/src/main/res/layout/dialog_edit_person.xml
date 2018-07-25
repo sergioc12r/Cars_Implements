@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/title_edit_car"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Contenedor -->
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="14dp"
+        android:orientation="vertical">
+
+        <!-- NOMBRES -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:theme="@style/Theme.AppCompat">
+
+            <EditText
+                android:id="@+id/ed_nombre_edit_person"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/person_name"
+                android:inputType="text"
+                android:singleLine="true"></EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- APELLIDOS  -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:theme="@style/Theme.AppCompat">
+
+            <EditText
+                android:id="@+id/ed_apel_edit_person"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/person_apel"
+                android:inputType="text"
+                android:singleLine="true"></EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Fecha de Nacimiento -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:theme="@style/Theme.AppCompat">
+
+            <EditText
+                android:id="@+id/ed_date_edit_person"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/person_date"
+                android:inputType="text"
+                android:singleLine="true"></EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- NUMERO DE IDENTIFICACION -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:theme="@style/Theme.AppCompat">
+
+            <EditText
+                android:id="@+id/ed_id_edit_person"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:hint="@string/person_id"
+                android:inputType="number"
+                android:singleLine="true"></EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- PROFESION U OFICIO -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:theme="@style/Theme.AppCompat">
+
+            <EditText
+                android:id="@+id/ed_profe_edit_person"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/person_profe"
+                android:inputType="text"
+                android:singleLine="true"></EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- MARRIED -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:theme="@style/Theme.AppCompat">
+
+            <EditText
+                android:id="@+id/ed_married_edit_person"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/person_married"
+                android:inputType="text"
+                android:singleLine="true"></EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- INGRESOS MENSUALES -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:theme="@style/Theme.AppCompat">
+
+            <EditText
+                android:id="@+id/ed_gain_edit_person"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/person_gain"
+                android:inputType="numberDecimal"
+                android:singleLine="true"></EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- VEHICULO ACTUAL -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:theme="@style/Theme.AppCompat">
+
+            <EditText
+                android:id="@+id/ed_car_edit_person"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/person_car"
+                android:inputType="text"
+                android:singleLine="true"></EditText>
+        </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_save_edit_person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btclose"
+            android:layout_alignBottom="@+id/btclose"
+            android:layout_alignStart="@+id/linearLayout3"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Guardar" />
+
+        <Button
+            android:id="@+id/bt_close_edit_person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/linearLayout3"
+            android:layout_below="@+id/linearLayout4"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Cancelar" />
+    </LinearLayout>
+
+
+</RelativeLayout>

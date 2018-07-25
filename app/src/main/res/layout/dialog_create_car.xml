@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Crear Automovil"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Contenedor -->
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="vertical">
+
+        <!-- PLACA -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/Theme.AppCompat">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_placa_new_car"
+                android:inputType="text"
+                android:singleLine="true"
+                android:hint="@string/car_placa">
+            </EditText>
+
+        </android.support.design.widget.TextInputLayout>
+        
+        <!-- MARCA -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/Theme.AppCompat">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_marca_new_car"
+                android:inputType="text"
+                android:singleLine="true"
+                android:hint="@string/car_marca">
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+        
+        <!-- MODELO -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/Theme.AppCompat">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_modelo_new_car"
+                android:inputType="text"
+                android:singleLine="true"
+                android:hint="@string/car_modelo">
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+        
+        <!-- Numero de puertas -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/Theme.AppCompat">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_puertas_new_car"
+                android:inputType="number"
+                android:singleLine="true"
+                android:hint="@string/car_puertas">
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Tipo de Vehiculo -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/Theme.AppCompat">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_tipo_new_car"
+                android:inputType="text"
+                android:singleLine="true"
+                android:hint="@string/car_tipo">
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Tipo de Vehiculo -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/Theme.AppCompat">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_precio_new_car"
+                android:inputType="number"
+                android:singleLine="true"
+                android:hint="Precio Vehiculo">
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/title"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout3"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout4"
+        android:layout_marginTop="15dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_save_create_car"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btclose"
+            android:layout_alignBottom="@+id/btclose"
+            android:layout_alignStart="@+id/linearLayout3"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Guardar" />
+
+        <Button
+            android:id="@+id/bt_close_create_car"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/linearLayout3"
+            android:layout_below="@+id/linearLayout4"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Cancelar" />
+    </LinearLayout>
+
+
+</RelativeLayout>

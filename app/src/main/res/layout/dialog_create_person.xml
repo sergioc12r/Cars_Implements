@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/create_person"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Contenedor -->
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="vertical">
+
+        <!-- NOMBRES -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/Theme.AppCompat">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_nombre_new_person"
+                android:inputType="text"
+                android:singleLine="true"
+                android:hint="@string/person_name">
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- APELLIDOS  -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/Theme.AppCompat">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_apel_new_person"
+                android:inputType="text"
+                android:singleLine="true"
+                android:hint="@string/person_apel">
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Fecha de Nacimiento -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/Theme.AppCompat">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_date_new_person"
+                android:inputType="text"
+                android:singleLine="true"
+                android:hint="@string/person_date">
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- NUMERO DE IDENTIFICACION -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/Theme.AppCompat">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_id_new_person"
+                android:inputType="number"
+                android:singleLine="true"
+                android:hint="@string/person_id">
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- PROFESION U OFICIO -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/Theme.AppCompat">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_profe_new_person"
+                android:inputType="text"
+                android:singleLine="true"
+                android:hint="@string/person_profe">
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- MARRIED -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/Theme.AppCompat">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_married_new_person"
+                android:inputType="text"
+                android:singleLine="true"
+                android:hint="@string/person_married">
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- INGRESOS MENSUALES -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/Theme.AppCompat">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_gain_new_person"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:hint="@string/person_gain">
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- VEHICULO ACTUAL -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/Theme.AppCompat">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed_car_new_person"
+                android:inputType="text"
+                android:singleLine="true"
+                android:hint="@string/person_car">
+            </EditText>
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/title"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout3"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout4"
+        android:layout_marginTop="15dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_save_create_person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btclose"
+            android:layout_alignBottom="@+id/btclose"
+            android:layout_alignStart="@+id/linearLayout3"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Guardar" />
+
+        <Button
+            android:id="@+id/bt_close_create_person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/linearLayout3"
+            android:layout_below="@+id/linearLayout4"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Cancelar" />
+    </LinearLayout>
+
+
+</RelativeLayout>

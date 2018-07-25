@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Crud Register</string>
+    <string name="person_icon">Person</string>
+    <string name="car_icon">Cars</string>
+    <string name="dialog_view">Informacion</string>
+    <string name="draw_activity_title">Caracteristicas del Vehiculo</string>
+    <string name="save_color_question">Desea guardar los datos actuales de pintura?</string>
+    <string name="erase_question">Desea eliminar todos los datos actuales?</string>
+    <string name="title_edit_car">Edicion de Carro</string>
+    <string name="erase_title">Borrar todos los elementos</string>
+
+    <string name="car_id">ID</string>
+    <string name="car_marca">Marca</string>
+    <string name="car_placa">Placa</string>
+    <string name="car_modelo">Modelo</string>
+    <string name="car_puertas">Numero de Puertas</string>
+    <string name="car_tipo">Tipo de Vehiculo</string>
+    <string name="car_color_puertas">Color de las puertas</string>
+    <string name="car_color_llantas">Color de las llantas</string>
+    <string name="car_color_capo">Color del capó</string>
+
+    <string name="person_name">Nombres</string>
+    <string name="person_apel">Apellidos</string>
+    <string name="person_date">Fecha de Nacimiento</string>
+    <string name="person_id">Numero de identificacion</string>
+    <string name="person_profe">Profesion u Ocupacion</string>
+    <string name="person_married">Casado</string>
+    <string name="person_gain">Ingresos Mensuales</string>
+    <string name="person_car">Vehiculo</string>
+
+
+    <string name="create_car">Crear Carro</string>
+    <string name="edit_car">Editar Carro</string>
+    <string name="erase_car">Borrar Carro</string>
+    <string name="erase_all_cars">Borrar Todos los Registros</string>
+    <string name="create_person">Crear Persona</string>
+    <string name="edit_person">Editar Persona</string>
+    <string name="erase_person">Borrar Persona</string>
+    <string name="erase_all_person">Borrar Todos los Registros</string>
+    <string name="historial_complete">Historial de Registros</string>
+    <string name="formato_fecha">dd/mm/yyyy</string>
+
+
+</resources>

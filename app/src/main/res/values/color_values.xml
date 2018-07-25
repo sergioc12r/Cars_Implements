@@ -1,0 +1,13 @@
+<resources>
+    <string-array name="Colores">
+        <item>Amarillo</item>
+        <item>Azul</item>
+        <item>Blanco</item>
+        <item>Cafe</item>
+        <item>Gris</item>
+        <item>Rojo</item>
+        <item>Negro</item>
+        <item>Morado</item>
+        <item>Verde</item>
+    </string-array>
+</resources>
